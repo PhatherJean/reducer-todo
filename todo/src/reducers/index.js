@@ -31,7 +31,7 @@ const reducer = (state, action) => {
 
     case "TOGGLE_COMPLETED":
       //map through each todo
-      //if todo has the id we are looking for in the action.payload , return a copy of the item with completed flipped
+      //if todo has the id we are so looking for in the action.payload , return a copy of the item with completed flipped
       //if todo does not have id we are looking for return the item as is
 
       return {
